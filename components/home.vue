@@ -1,9 +1,9 @@
 <template>
     <div>
-        <h1 class="title" ,style="text-align:center">Samir Sanchez Tejada</h1>
+        <h1 class="title" style="text-align:center">Samir Sanchez Tejada</h1>
         <body>
-            <div id="effect">
-            <p><img src="IMG_2977.jpg" alt="Samir" style="float:left;width:350px;height:350px; padding-left:150px"></p>
+            <div id="effect" data-aos="fade-up" data-aos-duration="4000">
+            <p><img src="SamirPicture.png" alt="Samir" style="float:left;width:350px;height:350px; padding-left:150px"></p>
             <p class="aboutme"> 
                 ABOUT ME 
                <br>
@@ -19,15 +19,15 @@
         </body>
             <body>
                 <div class="resume">
-                    <h3 class="title3" ,style="text-align:center">Resume</h3>
-                    <p class="text3" ,style="text-align:center">This is about Samir!</p>
+                    <h3 class="title3" style="text-align:center">Resume</h3>
+                    <p class="text3" style="text-align:center">This is about Samir!</p>
                     <div id="contentframe" style="position:absolute; top: 250px; left: 50px;"></div>
                     <div class="wrapper">
                         <iframe src="Resume_Samir_SanchezTejada.pdf" width="800px" height="800px"></iframe>
                     </div>
                 </div>
             </body>
-            <h2 class="title2" ,style="text-align:center">Projects</h2>
+            <h2 class="title2" style="text-align:center">Projects</h2>
             <div class="row">
                 <div class="item-1 col">
                     <a href='https://github.com/Samir0051/SingleCellSegmentation'><img class="alignnone size-full wp-image-342" src="projects.png" alt="" width="150" height="150"/></a>
@@ -145,4 +145,14 @@ font-family: 'Product Sans', sans-serif;
     padding-top:180px;
     margin-left:750px;
 }
+#effect{
+    padding-top:100px;
+}
 </style>
+
+<script>
+import aosMixin from '~/mixins/aos'
+export default{
+    mixins: [aosMixin]
+}
+</script>
