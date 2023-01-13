@@ -1,6 +1,8 @@
 <template>
     <div>
         <h1 class="title" ,style="text-align:center">Samir Sanchez Tejada</h1>
+        <body>
+            <div id="effect">
             <p><img src="IMG_2977.jpg" alt="Samir" style="float:left;width:350px;height:350px; padding-left:150px"></p>
             <p class="aboutme"> 
                 ABOUT ME 
@@ -13,17 +15,18 @@
                 <br>
                 📫 How to reach me: ses2313@columbia.edu
             </p>
-            <div class="element">
-                <div class="preview">
-                    <div class="description">
-                        <h4>Resume</h4>
-                        <p>This is about Samir!</p>
-                    </div>
-                    <div id="contentframe" style="position:relative; top: 250px; left: 50px;"></div>
-                    <div class="wrapper">
-                    <iframe src="Resume_Samir_SanchezTejada.pdf" width="500px" height="500px"></iframe>
-                    </div>
             </div>
+        </body>
+            <body>
+                <div class="resume">
+                    <h3 class="title3" ,style="text-align:center">Resume</h3>
+                    <p class="text3" ,style="text-align:center">This is about Samir!</p>
+                    <div id="contentframe" style="position:absolute; top: 250px; left: 50px;"></div>
+                    <div class="wrapper">
+                        <iframe src="Resume_Samir_SanchezTejada.pdf" width="800px" height="800px"></iframe>
+                    </div>
+                </div>
+            </body>
             <h2 class="title2" ,style="text-align:center">Projects</h2>
             <div class="row">
                 <div class="item-1 col">
@@ -47,7 +50,6 @@
                     Personal Website
                 </div>
             </div>
-        </div>
 	</div>
 </template>
 
@@ -60,6 +62,18 @@
     font-family: 'Product Sans', sans-serif;
 }
 .title2{
+    text-align: center;
+	font-size: 30px;
+	color: rgb(20, 139, 87);
+    font-family: 'Product Sans', sans-serif;
+}
+.title3{
+    text-align: center;
+	font-size: 30px;
+	color: rgb(20, 139, 87);
+    font-family: 'Product Sans', sans-serif;
+}
+.text3{
     text-align: center;
 	font-size: 30px;
 	color: rgb(20, 139, 87);
@@ -81,6 +95,9 @@
 
 .padding{ 
 padding-top:100px;
+}
+.resume{
+    padding-top:200px;
 }
 .padding2{
 align-items: normal;
@@ -120,6 +137,9 @@ text-align: left;
 font-size: 18px;
 color: rgb(20, 139, 87);
 font-family: 'Product Sans', sans-serif;
+}
+.wrapper{
+    text-align:center;
 }
 #contentframe {
     padding-top:180px;
