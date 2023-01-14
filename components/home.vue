@@ -90,7 +90,9 @@
 
         <body>
             <div class="final" data-aos="fade-right" data-aos-duration="4000">
+            <div id="effect">
             <h5 class="title5" style="text-align:center">Projects</h5>
+            </div>
             <div id="effect">
             <p class="arcade" data-aos="fade-right" data-aos-duration="4000"> 
                 Original C++ FlappyBird clone game designed for Arduino's that are connected to an external LED matrix display. The game starts by asking the user to press and hold the middle button until the game begins. Once this is done, the game will then begin and the user can press the left and right buttons to control the bird up and down. Pipes of randomly generated heights (heights that will always allow space for the user to go through) will go across the screen and the user will have to avoid them to gain a higher score. In addition to the random heights, the further you get into the game, the faster it gets, and the pipe's will come in at randomly generated time intervals so it doesn't get repetitive. Once the game ends, the user's score is displayed onto an LED panel, and the high score for the game will also be display. Lastly, the user will be reprompted to play the game and will wait again for them to hold the middle button. This game was created using C++ within Arduino IDE.
@@ -125,7 +127,9 @@
         <body>
             <div class="final" data-aos="fade-right" data-aos-duration="4000">
             <div id="effect">
-            <h2 class="title2" style="text-align:center">Project Links!</h2>
+                <h2 class="title2" style="text-align:center">Project Links!</h2>
+            </div>
+            <div id="effect">
             <div class="row">
                 <div class="item-1 col">
                     <a href='https://github.com/Samir0051/SingleCellSegmentation'><img class="alignnone size-full wp-image-342" src="projects.png" alt="" width="150" height="150"/></a>
@@ -182,21 +186,13 @@
             <div class="resume" data-aos="fade-right" data-aos-duration="4000">
                 <h3 class="title3" style="text-align:center">Resume</h3>
                 <p class="text3" style="text-align:center">This is about Samir!</p>
-                    <div id="contentframe" style="position:absolute; top: 250px; left: 50px;"></div>
+                    <div id="contentframe" style="position:absolute; top: 250px; left: 50px;" ></div>
                     <div class="wrapper">
                     <iframe src="Resume_Samir_SanchezTejada.pdf" width="800px" height="800px"></iframe>
                 </div>
             </div>
         </div>
         </body>
-
-
-        <body>
-            <div class="final" data-aos="fade-right" data-aos-duration="4000">
-            <h2 class="title2" style="text-align:center">Please Reach Out For Any Questions!</h2>
-            </div>
-        </body>
-
 
 	</div>
 </template>
@@ -270,7 +266,8 @@
     font-family: 'Product Sans', sans-serif;
 }
 .resume{
-    padding-top:200px;
+    padding-top:50px;
+    padding-bottom:75px;
 }
 .padding2{
 align-items: normal;
@@ -295,7 +292,7 @@ padding-bottom:300px;
 display:flex;
 flex-wrap: wrap;
 justify-content:center;
-padding-top:500px;
+padding-top:50px;
 }
 
 .col{
