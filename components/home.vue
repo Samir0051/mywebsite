@@ -121,6 +121,7 @@
 
         <body>
             <div class="final" data-aos="fade-right" data-aos-duration="4000">
+            <div id="effect">
             <h2 class="title2" style="text-align:center">Project Links!</h2>
             <div class="row">
                 <div class="item-1 col">
@@ -142,6 +143,7 @@
                 <div class="item-5 col">
                     <a href='https://github.com/Samir0051/mywebsite'><img class="alignnone size-full wp-image-342" src="projects.png" alt="" width="150" height="150"/></a>
                     Personal Website
+                </div>
                 </div>
             </div>
             </div>
@@ -171,6 +173,7 @@
         </body>
 
         <body>
+            <div id="effect">
             <div class="resume" data-aos="fade-right" data-aos-duration="4000">
                 <h3 class="title3" style="text-align:center">Resume</h3>
                 <p class="text3" style="text-align:center">This is about Samir!</p>
@@ -179,6 +182,7 @@
                     <iframe src="Resume_Samir_SanchezTejada.pdf" width="800px" height="800px"></iframe>
                 </div>
             </div>
+        </div>
         </body>
 
 
