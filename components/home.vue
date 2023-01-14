@@ -311,7 +311,7 @@ font-family: 'Product Sans', sans-serif;
     margin-left:750px;
 }
 #effect{
-    padding-top:25px;
+    padding-top:0px;
     display:flex;
 }
 
