@@ -293,7 +293,7 @@ padding-bottom:300px;
 display:flex;
 flex-wrap: wrap;
 justify-content:center;
-padding-bottom:50px;
+padding-top:500px;
 }
 
 .col{
