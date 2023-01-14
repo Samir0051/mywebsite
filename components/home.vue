@@ -1,7 +1,8 @@
 <template>
     <div>
+        <div id="effect">
         <h1 class="title" style="text-align:center">Samir Sanchez Tejada</h1>
-
+        </div>
         <body>
             <div class="finalx" data-aos="fade-right" data-aos-duration="4000">
             <div id="effect">
@@ -30,7 +31,9 @@
 
         <body>
             <div class="final" data-aos="fade-right" data-aos-duration="4000">
-            <h4 class="title4" style="text-align:center">Experience</h4>
+            <div id="effect">
+                <h4 class="title4" style="text-align:center">Experience</h4>
+            </div>
             <div id="effect">
             <p class="jane" data-aos="fade-right" data-aos-duration="4000"> 
                 Participated in a rigorous and interactive STEM curriculum focusing on topics such as probability, statistics, computer programming, data analysis, and game theory. In addition to these topics, classes regarding combinatorics, number theory and computer science were taught alongside homework and in-class assignments. This program was held throughout 5-weeks and the topics were extensively taught by experienced instructors and teaching assistants.
@@ -199,7 +202,6 @@
 <style>
 @import url('https://fonts.cdnfonts.com/css/product-sans') ;
 .title{
-    text-align: center;
 	font-size: 60px;
 	color: rgb(20, 139, 87);
     font-family: 'Product Sans', sans-serif;
@@ -317,7 +319,13 @@ font-family: 'Product Sans', sans-serif;
 #effect{
     padding-top:0px;
     display:flex;
-    text-align:center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80em
+    
 }
 
 #shift{
