@@ -154,7 +154,9 @@
 
         <body>
             <div class="final" data-aos="fade-right" data-aos-duration="4000">
+            <div id="effect">
             <h4 class="title4" style="text-align:center">Research</h4>
+            </div>
             <div id="effect">
             <p class="covid" data-aos="fade-right" data-aos-duration="4000"> 
                 Homeless shelters and organizations were contacted and interviewed using a questionnaire that focused on the effects the pandemic had on their organization and how they believe it affected the homeless people. Their responses were then compiled and turned into easily interpretive data that could be used to gain a better understanding of the issue. This project shows that from the responses garnered from the participants, 61.5% believed the pandemic overall negatively impacted homeless people, 41.5% believed that government didn't do a sufficient job to help the homeless during the pandemic and that 53.8% of organizations reported a slight influx of people using homeless services.
