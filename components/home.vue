@@ -313,6 +313,7 @@ font-family: 'Product Sans', sans-serif;
 #effect{
     padding-top:0px;
     display:flex;
+    text-align:center;
 }
 
 #shift{
