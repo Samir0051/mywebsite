@@ -188,7 +188,7 @@
                 <p class="text3" style="text-align:center">This is about Samir!</p>
                     <div id="contentframe" style="position:absolute; top: 250px; left: 50px;" ></div>
                     <div class="wrapper">
-                    <iframe src="Resume_Samir_SanchezTejada.pdf" width="800px" height="800px"></iframe>
+                    <iframe src="Samir_SanchezTejada_Resume.pdf" width="800px" height="800px"></iframe>
                 </div>
             </div>
         </div>
